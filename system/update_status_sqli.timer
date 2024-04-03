@@ -1,0 +1,10 @@
+[Unit]
+Description=Run update_status service every second
+
+[Timer]
+# Run every second
+OnUnitActiveSec=1
+Unit=update_status_sqli.service
+
+[Install]
+WantedBy=timers.target

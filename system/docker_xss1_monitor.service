@@ -1,0 +1,15 @@
+[Unit]
+Description=Docker Websocket Monitor
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=simple
+ExecStart=/var/www/html/running_docker/monitor_xss_1.sh
+WorkingDirectory=/var/www/html/running_docker
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+

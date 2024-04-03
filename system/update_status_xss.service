@@ -1,0 +1,10 @@
+[Unit]
+Description=Update status for WebSocket connections
+
+[Service]
+ExecStart=/var/www/html/update_status_xss.sh
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
