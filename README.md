@@ -13,7 +13,7 @@
    - Docker
    - Docker Compose
 
-3. To spin up the Docker containers, navigate to `main/docker1` and `main/docker2` directories and input the following command:
+3. To spin up the Docker containers, navigate to `main/docker1` and `main/docker2` directories where the docker-compose.yml is located and input the following command:
    ```bash
    sudo docker-compose up -d
 
