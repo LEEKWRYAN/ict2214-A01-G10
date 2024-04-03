@@ -17,6 +17,9 @@
    ```bash
    sudo docker-compose up -d
 
+4. Run all the scripts in `system/` folder using the command
+   ```bash
+   sudo systemctl enable xxxxxx
 
 Protect the Flag (PTF) is a cybersecurity platform designed to empower developers to enhance their skills in safeguarding web applications against injection attacks, particularly focusing on OWASP Top 10 vulnerabilities like Cross-site Scripting (XSS) and Structured Query Language Injection (SQLi). This repository contains the documentation and implementation details of the PTF platform.
 
