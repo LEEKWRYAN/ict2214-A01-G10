@@ -1,0 +1,72 @@
+.container 
+{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+body 
+{
+    background-color: #ececec;
+}
+
+.form-control 
+{
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #1097c0;
+}
+
+.form-select 
+{
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #160202;
+}
+
+.btn-container 
+{
+    text-align: center;
+}
+
+.btn-primary 
+{
+    border-radius: 0;
+    background-color: #1097c0;
+    border: none;
+}
+
+@media only screen and (max-width:600px) 
+{
+    .container 
+    {
+        width: 90%;
+        margin-top: 30px;
+        position: absolute;
+         left: 50%;
+         top: 50%;
+        padding-bottom: 40px;
+    }
+}
+
+.logo-container 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.logo 
+{
+    width: 250px;
+}
+
+.form-container 
+{
+    margin-top: 50px; /* Adjust as needed */
+}
