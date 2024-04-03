@@ -2,6 +2,22 @@
 
 # Protect The Flag (PTF) - Cybersecurity Training Platform
 
+## How to Run
+
+1. Copy or git clone the system and main to `/var/www/html`.
+
+2. To run, please ensure the following services are installed on your system:
+   - Apache
+   - MySQL
+   - Node.js
+   - Docker
+   - Docker Compose
+
+3. To spin up the Docker containers, navigate to `main/docker1` and `main/docker2` directories and input the following command:
+   ```bash
+   sudo docker-compose up -d
+
+
 Protect the Flag (PTF) is a cybersecurity platform designed to empower developers to enhance their skills in safeguarding web applications against injection attacks, particularly focusing on OWASP Top 10 vulnerabilities like Cross-site Scripting (XSS) and Structured Query Language Injection (SQLi). This repository contains the documentation and implementation details of the PTF platform.
 
 ## Abstract
