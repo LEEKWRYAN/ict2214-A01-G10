@@ -17,6 +17,7 @@ PTF's core objective is twofold: to educate users on crafting and defending agai
 PTF utilizes a comprehensive system architecture, incorporating Docker containers for isolated challenge environments, Apache/PHP stack for the main site, and various tools and platforms for interactive learning experiences. The design emphasizes security and usability, ensuring that users can engage with challenges effectively while maintaining the integrity of the main website.
 
 ## Solution Implementation
+![System Diagram](https://github.com/LEEKWRYAN/ict2214-A01-G10/assets/121925406/916c6165-6711-49b6-bb7f-98470880d06e)
 
 The implementation of PTF involves setting up hardware servers, securing the main site and Docker containers, and creating scripts to manage Docker instances efficiently. Security measures include port filtering, HTTPS encryption, and user authentication protocols to safeguard against potential threats. Docker instances are rotated to ensure a clean slate for each user session, enhancing security and preventing exploitation of vulnerabilities.
 
